@@ -144,6 +144,9 @@ td {
         clear: both;
         width: 90%;
     }
+    .title {
+        margin: auto;
+    }
     .i {
         display: none;
     }
