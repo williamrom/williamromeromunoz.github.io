@@ -121,12 +121,22 @@ td {
 /* screen */
 
 @media scream and (max-width: 1050px) {
-    .header, .perfil{
+    
+}
+
+
+@media screen and (max-width: 1050px) {
+    .perfil {
+        width: 90%;
+    }
+    .header{
         width: 100%;
     }
 }
-
-@media scream and (max-width: 800px) {
+@media screen and (max-width:800px) {
+    .banner {
+        padding: 10px;
+    }
     .header{
         width: 100%;
     }
@@ -134,12 +144,30 @@ td {
         clear: both;
         width: 90%;
     }
+    .i {
+        display: none;
+    }
 }
-@media scream and (max-width: 500px) {
+@media screen and (max-width:420px) {
+    .perfil {
+        width: 100%;
+        border-radius: 0;
+        height: auto;
+    }
+    .perfil .img {
+        display: none;
+    }
+    .p_info {
+        width: 100%;
+    }
+    .banner {
+        height: auto;
+        padding: 10px;
+    }
     .header{
         width: 100%;
     }
     .header div > div {
         width: 100%;
-    } 
+    }
 }
